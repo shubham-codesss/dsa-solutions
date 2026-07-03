@@ -12,7 +12,7 @@ class Solution {
 				ans = mid;
 				end = mid - 1;
 			}
-			if (arr[mid]<target) {
+			else {
 				start = mid + 1;
 			}
 		}
